@@ -1,0 +1,280 @@
+<!DOCTYPE html><html><head>
+      <title>mun</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/user1/.windsurf/extensions/shd101wyy.markdown-preview-enhanced-0.8.18-universal/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="mun-project-wiki"><strong>MUN Project Wiki</strong> </h1>
+<hr>
+<h2 id="1-overview-of-mun"><strong>1. Overview of MUN</strong> </h2>
+<h3 id="what-is-mun">What is MUN? </h3>
+<ul>
+<li>Model United Nations (MUN) is a simulation of the United Nations where participants role-play as delegates representing countries or organizations.</li>
+<li>The goal is to debate, negotiate, and draft resolutions on global issues.</li>
+</ul>
+<h3 id="key-objectives">Key Objectives </h3>
+<ul>
+<li>Develop public speaking, negotiation, and diplomacy skills.</li>
+<li>Understand international relations and global issues.</li>
+<li>Collaborate to create solutions through resolutions.</li>
+</ul>
+<hr>
+<h2 id="2-rules-of-procedure"><strong>2. Rules of Procedure</strong> </h2>
+<h3 id="basic-rules">Basic Rules </h3>
+<ul>
+<li><strong>Roll Call</strong>: Delegates respond with "Present" or "Present and Voting."</li>
+<li><strong>Setting the Agenda</strong>: Debate which topic to discuss first.</li>
+<li><strong>Speakers' List</strong>: Delegates sign up to speak on the topic.</li>
+<li><strong>Moderated vs. Unmoderated Caucus</strong>: Structured vs. informal discussions.</li>
+<li><strong>Voting</strong>: Resolutions are passed by majority vote.</li>
+</ul>
+<h3 id="common-motions">Common Motions </h3>
+<ul>
+<li><strong>Motion to Open/Close Speakers' List</strong>: Start or stop adding speakers.</li>
+<li><strong>Motion for Moderated Caucus</strong>: Structured debate on a subtopic.</li>
+<li><strong>Motion for Unmoderated Caucus</strong>: Informal discussion.</li>
+<li><strong>Motion to Adjourn</strong>: End the session.</li>
+</ul>
+<h3 id="points">Points </h3>
+<ul>
+<li><strong>Point of Order</strong>: Correct a procedural error.</li>
+<li><strong>Point of Inquiry</strong>: Ask a question about procedure.</li>
+<li><strong>Point of Personal Privilege</strong>: Address personal discomfort (e.g., audio issues).</li>
+</ul>
+<h3 id="table-of-motions-and-points">Table of Motions and Points </h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Phrase to Call It</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Motion to Set Speakers' Time</strong></td>
+<td>"Motion to set the speakers' time to [specific time] minutes."</td>
+<td>Proposes changing the default speaking time for each delegate during the general speakers' list.</td>
+</tr>
+<tr>
+<td><strong>Motion for Moderated Caucus</strong></td>
+<td>"Motion for a [total time] minute moderated caucus with [individual speaking time] minute(s) per speaker on the topic of [specific topic]."</td>
+<td>Requests a structured discussion on a specific sub-topic, with the chair moderating and delegates speaking for designated times.</td>
+</tr>
+<tr>
+<td><strong>Motion for Unmoderated Caucus</strong></td>
+<td>"Motion for a [total time] minute unmoderated caucus."</td>
+<td>Calls for an informal session where delegates can move freely, discuss, and negotiate without the chair's moderation.</td>
+</tr>
+<tr>
+<td><strong>Motion to Open the Speakers' List</strong></td>
+<td>"Motion to open the speakers' list."</td>
+<td>Initiates the formation of a list of delegates who wish to speak on the topic at hand.</td>
+</tr>
+<tr>
+<td><strong>Motion to Close Debate</strong></td>
+<td>"Motion to close debate on this topic."</td>
+<td>Ends the debate on the current topic and moves the committee into voting procedure.</td>
+</tr>
+<tr>
+<td><strong>Motion to Table a Resolution</strong></td>
+<td>"Motion to lay the resolution on the table."</td>
+<td>Proposes to temporarily set aside a resolution, delaying its consideration.</td>
+</tr>
+<tr>
+<td><strong>Motion to Reconsider a Proposal</strong></td>
+<td>"Motion to reconsider the proposal."</td>
+<td>Requests to reopen discussion on a proposal that has already been decided upon.</td>
+</tr>
+<tr>
+<td><strong>Motion for Roll Call Vote</strong></td>
+<td>"Motion for a roll call vote."</td>
+<td>Requests that each delegate's vote be recorded individually by calling out country names.</td>
+</tr>
+<tr>
+<td><strong>Point of Personal Privilege</strong></td>
+<td>"Point of personal privilege."</td>
+<td>Raised when a delegate experiences personal discomfort affecting their ability to participate, such as audibility issues.</td>
+</tr>
+<tr>
+<td><strong>Point of Order</strong></td>
+<td>"Point of order."</td>
+<td>Raised to address a procedural error or to question the chair's ruling on procedure.</td>
+</tr>
+<tr>
+<td><strong>Point of Parliamentary Inquiry</strong></td>
+<td>"Point of parliamentary inquiry."</td>
+<td>Used to ask the chair about the rules of procedure or clarification on procedural matters.</td>
+</tr>
+<tr>
+<td><strong>Right of Reply</strong></td>
+<td>"Right of reply."</td>
+<td>Invoked when a delegate feels their country has been insulted or misrepresented by another delegate's speech.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="3-research-and-preparation"><strong>3. Research and Preparation</strong> </h2>
+<h3 id="country-profile">Country Profile </h3>
+<ul>
+<li><strong>Name of Country</strong>: [Your assigned country]</li>
+<li><strong>Political System</strong>: [e.g., Democracy, Monarchy]</li>
+<li><strong>Economic Status</strong>: [e.g., Developed, Developing]</li>
+<li><strong>Foreign Policy</strong>: [Key alliances, stances on global issues]</li>
+</ul>
+<h3 id="committee-topics">Committee Topics </h3>
+<ul>
+<li><strong>Topic 1</strong>: [Brief summary of the issue]
+<ul>
+<li>Your country's stance: [Position and reasons]</li>
+<li>Possible solutions: [Ideas for resolutions]</li>
+</ul>
+</li>
+<li><strong>Topic 2</strong>: [Brief summary of the issue]
+<ul>
+<li>Your country's stance: [Position and reasons]</li>
+<li>Possible solutions: [Ideas for resolutions]</li>
+</ul>
+</li>
+</ul>
+<h3 id="useful-resources">Useful Resources </h3>
+<ul>
+<li>UN Websites (e.g., <a href="http://un.org">un.org</a>)</li>
+<li>CIA World Factbook</li>
+<li>News outlets (e.g., BBC, Al Jazeera)</li>
+</ul>
+<hr>
+<h2 id="4-public-speaking-tips"><strong>4. Public Speaking Tips</strong> </h2>
+<h3 id="opening-speech">Opening Speech </h3>
+<ol>
+<li><strong>Greeting</strong>: "Honorable Chair, Fellow Delegates..."</li>
+<li><strong>State Your Country's Position</strong>: Clearly outline your stance.</li>
+<li><strong>Provide Evidence</strong>: Use facts, statistics, or quotes.</li>
+<li><strong>Propose Solutions</strong>: Suggest actionable ideas.</li>
+<li><strong>Closing</strong>: "Thank you, and I look forward to collaboration."</li>
+</ol>
+<h3 id="general-tips">General Tips </h3>
+<ul>
+<li>Speak clearly and confidently.</li>
+<li>Use formal language.</li>
+<li>Avoid personal opinions; represent your country.</li>
+<li>Be concise and stay within the time limit.</li>
+</ul>
+<hr>
+<h2 id="5-drafting-resolutions"><strong>5. Drafting Resolutions</strong> </h2>
+<h3 id="structure-of-a-resolution">Structure of a Resolution </h3>
+<ol>
+<li><strong>Header</strong>:
+<ul>
+<li>Committee Name</li>
+<li>Topic</li>
+<li>Sponsors and Signatories</li>
+</ul>
+</li>
+<li><strong>Preambulatory Clauses</strong>:
+<ul>
+<li>Context and justification (e.g., "Noting with concern...")</li>
+</ul>
+</li>
+<li><strong>Operative Clauses</strong>:
+<ul>
+<li>Actions and solutions (e.g., "Calls upon member states to...")</li>
+</ul>
+</li>
+</ol>
+<h3 id="tips-for-writing">Tips for Writing </h3>
+<ul>
+<li>Be specific and actionable.</li>
+<li>Use formal UN language.</li>
+<li>Collaborate with other delegates to gain support.</li>
+</ul>
+<hr>
+<h2 id="6-negotiation-and-diplomacy"><strong>6. Negotiation and Diplomacy</strong> </h2>
+<h3 id="building-alliances">Building Alliances </h3>
+<ul>
+<li>Identify countries with similar positions.</li>
+<li>Approach them during unmoderated caucuses.</li>
+<li>Be open to compromise.</li>
+</ul>
+<h3 id="handling-conflicts">Handling Conflicts </h3>
+<ul>
+<li>Stay respectful and professional.</li>
+<li>Focus on common goals.</li>
+<li>Use evidence to support your arguments.</li>
+</ul>
+<hr>
+<h2 id="7-sample-scripts"><strong>7. Sample Scripts</strong> </h2>
+<h3 id="opening-speech-1">Opening Speech </h3>
+<p>"Honorable Chair, Fellow Delegates,<br>
+The delegation of [Your Country] firmly believes that [Topic] is a critical issue requiring immediate attention. [State your position]. We urge this committee to [propose solutions]. Thank you."</p>
+<h3 id="motion-proposal">Motion Proposal </h3>
+<p>"Motion for a 10-minute moderated caucus with 1-minute speaking time per delegate on the topic of [Subtopic]."</p>
+<h3 id="point-of-inquiry">Point of Inquiry </h3>
+<p>"Point of Inquiry, Honorable Chair. Could you clarify the voting procedure for this resolution?"</p>
+<hr>
+<h2 id="8-glossary-of-terms"><strong>8. Glossary of Terms</strong> </h2>
+<ul>
+<li><strong>Delegate</strong>: A participant representing a country.</li>
+<li><strong>Resolution</strong>: A formal document proposing solutions.</li>
+<li><strong>Caucus</strong>: A formal or informal discussion.</li>
+<li><strong>Placard</strong>: A card with your country's name used to vote or signal.</li>
+</ul>
+<hr>
+<h2 id="9-checklist-for-the-simulation"><strong>9. Checklist for the Simulation</strong> </h2>
+<h3 id="before-the-event">Before the Event </h3>
+<ul>
+<li>Research your country and topics.</li>
+<li>Prepare opening speeches.</li>
+<li>Print copies of your position paper.</li>
+</ul>
+<h3 id="during-the-event">During the Event </h3>
+<ul>
+<li>Bring a notebook, pen, and placard.</li>
+<li>Stay engaged and take notes.</li>
+<li>Network with other delegates.</li>
+</ul>
+<h3 id="after-the-event">After the Event </h3>
+<ul>
+<li>Reflect on your performance.</li>
+<li>Note areas for improvement.</li>
+</ul>
+<hr>
+<h2 id="10-additional-resources"><strong>10. Additional Resources</strong> </h2>
+<h3 id="useful-links">Useful Links </h3>
+<ul>
+<li><a href="https://www.un.org/en/documents/">UN Documentation</a></li>
+<li><a href="https://www.un.org/en/mun/">MUN Guide</a></li>
+<li><a href="https://www.cia.gov/the-world-factbook/">Country Profiles</a></li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
