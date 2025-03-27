@@ -4,7 +4,7 @@ Model United Nations (MUN) is an educational simulation where students role-play
 
 ### Links
 
-- [Tips and Tricks](mun.html) (motions, points, etc.)
+- [Tips and Tricks](General/mun.html) (motions, points, etc.)
 - [CIA World Factbook](https://www.cia.gov/the-world-factbook/) (maps and data from CIA)
 - [UN Documents](https://www.un.org/en/) (resolutions, etc.)
 - [Global Data Lab](https://globaldatalab.org/) (maps, data, etc.)
